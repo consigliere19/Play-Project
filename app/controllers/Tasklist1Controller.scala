@@ -17,13 +17,12 @@ class Tasklist1Controller  @Inject()(val controllerComponents: ControllerCompone
 
     def validatePost = Action { (request) =>
         val postVals = request.body.asFormUrlEncoded;
-        postVals.map(args => {
+        postVals.map { args => 
             val username = args("username").head;
             val password = args("password").head;
-            Ok(s"$username logged in with $password");
-        }
-        ).getOrElse(
-            Ok("Oops!")
+            Redirect(routes.Tasklist1Controller.tasklist());
+        }.getOrElse(
+            Redirect(routes.Tasklist1Controller.login())
         )
     }
 

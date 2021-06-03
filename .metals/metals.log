@@ -432,3 +432,91 @@ WARNING: Unmatched cancel notification for request id 923
 [0m2021.06.04 02:43:00 INFO  time: compiled root in 0.75s[0m
 [0m2021.06.04 02:45:07 INFO  compiling root (3 scala sources)[0m
 [0m2021.06.04 02:45:09 INFO  time: compiled root in 2.2s[0m
+[0m2021.06.04 03:04:52 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 03:04:52 INFO  time: compiled root in 0.31s[0m
+[0m2021.06.04 03:08:03 INFO  E:\consigliere19-dev\play-project\app\controllers\Tasklist1Controller.scala:10:17: stale bloop error: overloaded method apply with alternatives:
+  (block: => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  (block: play.api.mvc.Request[play.api.mvc.AnyContent] => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  [A](bodyParser: play.api.mvc.BodyParser[A]): play.api.mvc.ActionBuilder[play.api.mvc.Request,A]
+ cannot be applied to (Unit)
+    def login = Action {
+                ^^^^^^[0m
+[0m2021.06.04 03:08:03 INFO  E:\consigliere19-dev\play-project\app\controllers\Tasklist1Controller.scala:14:20: stale bloop error: overloaded method apply with alternatives:
+  (block: => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  (block: play.api.mvc.Request[play.api.mvc.AnyContent] => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  [A](bodyParser: play.api.mvc.BodyParser[A]): play.api.mvc.ActionBuilder[play.api.mvc.Request,A]
+ cannot be applied to (Unit)
+    def validate = Action {
+                   ^^^^^^[0m
+[0m2021.06.04 03:08:03 INFO  E:\consigliere19-dev\play-project\app\controllers\Tasklist1Controller.scala:10:17: stale bloop error: overloaded method apply with alternatives:
+  (block: => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  (block: play.api.mvc.Request[play.api.mvc.AnyContent] => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  [A](bodyParser: play.api.mvc.BodyParser[A]): play.api.mvc.ActionBuilder[play.api.mvc.Request,A]
+ cannot be applied to (Unit)
+    def login = Action {
+                ^^^^^^[0m
+[0m2021.06.04 03:08:03 INFO  E:\consigliere19-dev\play-project\app\controllers\Tasklist1Controller.scala:14:20: stale bloop error: overloaded method apply with alternatives:
+  (block: => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  (block: play.api.mvc.Request[play.api.mvc.AnyContent] => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  [A](bodyParser: play.api.mvc.BodyParser[A]): play.api.mvc.ActionBuilder[play.api.mvc.Request,A]
+ cannot be applied to (Unit)
+    def validate = Action {
+                   ^^^^^^[0m
+[0m2021.06.04 03:08:11 INFO  E:\consigliere19-dev\play-project\app\controllers\Tasklist1Controller.scala:10:17: stale bloop error: overloaded method apply with alternatives:
+  (block: => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  (block: play.api.mvc.Request[play.api.mvc.AnyContent] => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  [A](bodyParser: play.api.mvc.BodyParser[A]): play.api.mvc.ActionBuilder[play.api.mvc.Request,A]
+ cannot be applied to (Unit)
+    def login = Action {
+                ^^^^^^[0m
+[0m2021.06.04 03:08:11 INFO  E:\consigliere19-dev\play-project\app\controllers\Tasklist1Controller.scala:14:20: stale bloop error: overloaded method apply with alternatives:
+  (block: => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  (block: play.api.mvc.Request[play.api.mvc.AnyContent] => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  [A](bodyParser: play.api.mvc.BodyParser[A]): play.api.mvc.ActionBuilder[play.api.mvc.Request,A]
+ cannot be applied to (Unit)
+    def validate = Action {
+                   ^^^^^^[0m
+[0m2021.06.04 03:08:11 INFO  E:\consigliere19-dev\play-project\app\controllers\Tasklist1Controller.scala:10:17: stale bloop error: overloaded method apply with alternatives:
+  (block: => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  (block: play.api.mvc.Request[play.api.mvc.AnyContent] => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  [A](bodyParser: play.api.mvc.BodyParser[A]): play.api.mvc.ActionBuilder[play.api.mvc.Request,A]
+ cannot be applied to (Unit)
+    def login = Action {
+                ^^^^^^[0m
+[0m2021.06.04 03:08:11 INFO  E:\consigliere19-dev\play-project\app\controllers\Tasklist1Controller.scala:14:20: stale bloop error: overloaded method apply with alternatives:
+  (block: => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  (block: play.api.mvc.Request[play.api.mvc.AnyContent] => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>
+  [A](bodyParser: play.api.mvc.BodyParser[A]): play.api.mvc.ActionBuilder[play.api.mvc.Request,A]
+ cannot be applied to (Unit)
+    def validate = Action {
+                   ^^^^^^[0m
+[0m2021.06.04 03:08:16 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 03:08:16 INFO  time: compiled root in 0.15s[0m
+[0m2021.06.04 03:09:18 INFO  compiling root (6 scala sources)[0m
+[0m2021.06.04 03:09:18 INFO  time: compiled root in 0.54s[0m
+[0m2021.06.04 03:09:43 INFO  compiling root (12 scala sources and 2 java sources)[0m
+[0m2021.06.04 03:09:43 INFO  time: compiled root in 0.81s[0m
+[0m2021.06.04 03:10:29 INFO  compiling root (12 scala sources and 2 java sources)[0m
+[0m2021.06.04 03:10:29 INFO  time: compiled root in 0.43s[0m
+[0m2021.06.04 03:19:33 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.04 03:19:36 INFO  time: compiled root in 3.25s[0m
+[0m2021.06.04 03:19:36 INFO  compiling root (3 scala sources and 1 java source)[0m
+[0m2021.06.04 03:19:38 INFO  time: compiled root in 2.17s[0m
+[0m2021.06.04 03:25:53 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 03:25:53 INFO  time: compiled root in 0.16s[0m
+[0m2021.06.04 03:26:03 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 03:26:03 INFO  time: compiled root in 0.95s[0m
+[0m2021.06.04 03:26:03 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 03:26:05 INFO  time: compiled root in 1s[0m
+Jun 04, 2021 3:26:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2317
+[0m2021.06.04 03:26:59 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 03:27:00 INFO  time: compiled root in 1.14s[0m
+[0m2021.06.04 03:27:00 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 03:27:02 INFO  time: compiled root in 1.45s[0m
+[0m2021.06.04 03:28:07 INFO  compiling root (4 scala sources)[0m
+[0m2021.06.04 03:28:11 INFO  time: compiled root in 3.42s[0m
+[0m2021.06.04 03:28:11 INFO  compiling root (1 scala source and 1 java source)[0m
+[0m2021.06.04 03:28:13 INFO  time: compiled root in 2.51s[0m
+[0m2021.06.04 03:28:17 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 03:28:20 INFO  time: compiled root in 2.49s[0m
