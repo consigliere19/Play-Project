@@ -11,6 +11,12 @@ GET     /productRE/$prodType<[a-z]{2}\d\d>/:prodNum controllers.HomeController.p
 
 
 GET     /tasklist1                  controllers.Tasklist1Controller.tasklist()
+GET     /login1                     controllers.Tasklist1Controller.login()
+GET     /validate1                  controllers.Tasklist1Controller.validate(username, password)
++ nocsrf
+POST     /validate2                  controllers.Tasklist1Controller.validatePost
+
+
 
 
 # Map static resources from the /public folder to the /assets URL path

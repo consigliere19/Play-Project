@@ -1,1 +1,434 @@
 [0m2021.06.04 01:01:10 INFO  Started: Metals version 0.10.4 in workspace 'E:\consigliere19-dev\play-project' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.04 01:01:13 INFO  time: initialize in 3.15s[0m
+[0m2021.06.04 01:01:14 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.04 01:01:18 INFO  running 'C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\BITANU\AppData\Local\Temp\metals15882027826890235019\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.06.04 01:01:19 ERROR [info] [launcher] getting org.scala-sbt sbt 1.5.2  (this may take some time)...[0m
+[0m2021.06.04 01:02:06 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.2/sbt-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:06 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar ...[0m
+[0m2021.06.04 01:02:06 ERROR :: loading settings :: url = jar:file:/C:/Users/BITANU/AppData/Local/Temp/metals15882027826890235019/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.06.04 01:02:06 ERROR :: loading settings :: url = jar:file:/C:/Users/BITANU/AppData/Local/Temp/metals15882027826890235019/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.06.04 01:02:06 ERROR 	[SUCCESSFUL ] org.scala-sbt#sbt;1.5.2!sbt.jar (868ms)[0m
+[0m2021.06.04 01:02:06 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.5.2/main_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:10 ERROR 	[SUCCESSFUL ] org.scala-sbt#main_2.12;1.5.2!main_2.12.jar (2755ms)[0m
+[0m2021.06.04 01:02:10 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.5.0/io_2.12-1.5.0.jar ...[0m
+[0m2021.06.04 01:02:11 ERROR 	[SUCCESSFUL ] org.scala-sbt#io_2.12;1.5.0!io_2.12.jar (1290ms)[0m
+[0m2021.06.04 01:02:11 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.5.2/logic_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:11 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.13!scala-library.jar (5028ms)[0m
+[0m2021.06.04 01:02:11 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.5.2/actions_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:11 ERROR 	[SUCCESSFUL ] org.scala-sbt#logic_2.12;1.5.2!logic_2.12.jar (706ms)[0m
+[0m2021.06.04 01:02:11 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.5.2/main-settings_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:11 ERROR 	[SUCCESSFUL ] org.scala-sbt#actions_2.12;1.5.2!actions_2.12.jar (875ms)[0m
+[0m2021.06.04 01:02:12 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.5.2/run_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:12 ERROR 	[SUCCESSFUL ] org.scala-sbt#run_2.12;1.5.2!run_2.12.jar (753ms)[0m
+[0m2021.06.04 01:02:12 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.5.2/command_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:13 ERROR 	[SUCCESSFUL ] org.scala-sbt#main-settings_2.12;1.5.2!main-settings_2.12.jar (1325ms)[0m
+[0m2021.06.04 01:02:13 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.5.2/collections_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:13 ERROR 	[SUCCESSFUL ] org.scala-sbt#command_2.12;1.5.2!command_2.12.jar (1087ms)[0m
+[0m2021.06.04 01:02:13 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.5.2/scripted-plugin_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#collections_2.12;1.5.2!collections_2.12.jar (988ms)[0m
+[0m2021.06.04 01:02:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.5.2/zinc-lm-integration_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#scripted-plugin_2.12;1.5.2!scripted-plugin_2.12.jar (735ms)[0m
+[0m2021.06.04 01:02:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.5.2/util-logging_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-lm-integration_2.12;1.5.2!zinc-lm-integration_2.12.jar (703ms)[0m
+[0m2021.06.04 01:02:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.3.1/launcher-interface-1.3.1.jar ...[0m
+[0m2021.06.04 01:02:15 ERROR 	[SUCCESSFUL ] org.scala-sbt#launcher-interface;1.3.1!launcher-interface.jar (662ms)[0m
+[0m2021.06.04 01:02:15 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.5.0/librarymanagement-core_2.12-1.5.0.jar ...[0m
+[0m2021.06.04 01:02:15 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-logging_2.12;1.5.2!util-logging_2.12.jar (1065ms)[0m
+[0m2021.06.04 01:02:15 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.5.0/librarymanagement-ivy_2.12-1.5.0.jar ...[0m
+[0m2021.06.04 01:02:17 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-core_2.12;1.5.0!librarymanagement-core_2.12.jar (1429ms)[0m
+[0m2021.06.04 01:02:17 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.5.3/compiler-interface-1.5.3.jar ...[0m
+[0m2021.06.04 01:02:17 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-ivy_2.12;1.5.0!librarymanagement-ivy_2.12.jar (1205ms)[0m
+[0m2021.06.04 01:02:17 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.5.3/zinc-compile_2.12-1.5.3.jar ...[0m
+[0m2021.06.04 01:02:17 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile_2.12;1.5.3!zinc-compile_2.12.jar (668ms)[0m
+[0m2021.06.04 01:02:17 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.5.2/util-relation_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:17 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-interface;1.5.3!compiler-interface.jar (741ms)[0m
+[0m2021.06.04 01:02:17 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.5.2/util-position_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:18 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-relation_2.12;1.5.2!util-relation_2.12.jar (686ms)[0m
+[0m2021.06.04 01:02:18 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.13/scala-reflect-2.12.13.jar ...[0m
+[0m2021.06.04 01:02:18 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-position_2.12;1.5.2!util-position_2.12.jar (663ms)[0m
+[0m2021.06.04 01:02:18 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.5.2/completion_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:18 ERROR 	[SUCCESSFUL ] org.scala-sbt#completion_2.12;1.5.2!completion_2.12.jar (893ms)[0m
+[0m2021.06.04 01:02:18 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.5.2/task-system_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:20 ERROR 	[SUCCESSFUL ] org.scala-sbt#task-system_2.12;1.5.2!task-system_2.12.jar (744ms)[0m
+[0m2021.06.04 01:02:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.5.2/tasks_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:20 ERROR 	[SUCCESSFUL ] org.scala-sbt#tasks_2.12;1.5.2!tasks_2.12.jar (727ms)[0m
+[0m2021.06.04 01:02:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.5.2/testing_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:22 ERROR 	[SUCCESSFUL ] org.scala-sbt#testing_2.12;1.5.2!testing_2.12.jar (955ms)[0m
+[0m2021.06.04 01:02:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.5.2/util-tracking_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:22 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.13!scala-reflect.jar (3765ms)[0m
+[0m2021.06.04 01:02:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.5.3/zinc-classpath_2.12-1.5.3.jar ...[0m
+[0m2021.06.04 01:02:22 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-tracking_2.12;1.5.2!util-tracking_2.12.jar (684ms)[0m
+[0m2021.06.04 01:02:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.5.3/zinc-apiinfo_2.12-1.5.3.jar ...[0m
+[0m2021.06.04 01:02:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classpath_2.12;1.5.3!zinc-classpath_2.12.jar (732ms)[0m
+[0m2021.06.04 01:02:23 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.5.3/zinc_2.12-1.5.3.jar ...[0m
+[0m2021.06.04 01:02:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-apiinfo_2.12;1.5.3!zinc-apiinfo_2.12.jar (805ms)[0m
+[0m2021.06.04 01:02:23 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.5.2/util-control_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc_2.12;1.5.3!zinc_2.12.jar (716ms)[0m
+[0m2021.06.04 01:02:23 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.5.2/util-interface-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:24 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-control_2.12;1.5.2!util-control_2.12.jar (674ms)[0m
+[0m2021.06.04 01:02:24 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.5.2/core-macros_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:24 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-interface;1.5.2!util-interface.jar (670ms)[0m
+[0m2021.06.04 01:02:24 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.13/scala-compiler-2.12.13.jar ...[0m
+[0m2021.06.04 01:02:24 ERROR 	[SUCCESSFUL ] org.scala-sbt#core-macros_2.12;1.5.2!core-macros_2.12.jar (715ms)[0m
+[0m2021.06.04 01:02:24 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.5.2/util-cache_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:26 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-cache_2.12;1.5.2!util-cache_2.12.jar (839ms)[0m
+[0m2021.06.04 01:02:26 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.5.2/test-agent-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:26 ERROR 	[SUCCESSFUL ] org.scala-sbt#test-agent;1.5.2!test-agent.jar (693ms)[0m
+[0m2021.06.04 01:02:26 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.5.3/compiler-bridge_2.12-1.5.3.jar ...[0m
+[0m2021.06.04 01:02:27 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-bridge_2.12;1.5.3!compiler-bridge_2.12.jar (866ms)[0m
+[0m2021.06.04 01:02:27 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.5.3/zinc-classfile_2.12-1.5.3.jar ...[0m
+[0m2021.06.04 01:02:27 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classfile_2.12;1.5.3!zinc-classfile_2.12.jar (727ms)[0m
+[0m2021.06.04 01:02:27 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.5.3/zinc-core_2.12-1.5.3.jar ...[0m
+[0m2021.06.04 01:02:29 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-core_2.12;1.5.3!zinc-core_2.12.jar (1051ms)[0m
+[0m2021.06.04 01:02:29 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.5.3/zinc-persist_2.12-1.5.3.jar ...[0m
+[0m2021.06.04 01:02:29 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist_2.12;1.5.3!zinc-persist_2.12.jar (888ms)[0m
+[0m2021.06.04 01:02:29 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.5.3/zinc-compile-core_2.12-1.5.3.jar ...[0m
+[0m2021.06.04 01:02:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile-core_2.12;1.5.3!zinc-compile-core_2.12.jar (871ms)[0m
+[0m2021.06.04 01:02:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.5.3/zinc-persist-core-assembly-1.5.3.jar ...[0m
+[0m2021.06.04 01:02:32 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.13!scala-compiler.jar (7285ms)[0m
+[0m2021.06.04 01:02:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.5.2/protocol_2.12-1.5.2.jar ...[0m
+[0m2021.06.04 01:02:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#protocol_2.12;1.5.2!protocol_2.12.jar (985ms)[0m
+[0m2021.06.04 01:02:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist-core-assembly;1.5.3!zinc-persist-core-assembly.jar (3002ms)[0m
+[0m2021.06.04 01:02:33 ERROR :: retrieving :: org.scala-sbt#boot-app[0m
+[0m2021.06.04 01:02:33 ERROR 	confs: [default][0m
+[0m2021.06.04 01:02:36 ERROR 	83 artifacts copied, 0 already retrieved[0m
+[0m2021.06.04 01:02:36 ERROR [info] [launcher] getting Scala 2.12.13 (for sbt)...[0m
+[0m2021.06.04 01:02:36 ERROR :: retrieving :: org.scala-sbt#boot-scala[0m
+[0m2021.06.04 01:02:36 ERROR 	confs: [default][0m
+[0m2021.06.04 01:02:36 ERROR 	6 artifacts copied, 0 already retrieved[0m
+[0m2021.06.04 01:02:40 INFO  [info] welcome to sbt 1.5.2 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2021.06.04 01:02:44 INFO  [info] loading global plugins from C:\Users\BITANU\.sbt\1.0\plugins[0m
+[0m2021.06.04 01:03:07 INFO  [info] loading settings for project play-project-build-build-build from metals.sbt ...[0m
+[0m2021.06.04 01:03:07 INFO  [info] loading project definition from E:\consigliere19-dev\play-project\project\project\project[0m
+[0m2021.06.04 01:03:15 INFO  [info] loading settings for project play-project-build-build from metals.sbt ...[0m
+[0m2021.06.04 01:03:15 INFO  [info] loading project definition from E:\consigliere19-dev\play-project\project\project[0m
+[0m2021.06.04 01:03:23 INFO  [success] Generated .bloop\play-project-build-build.json[0m
+[0m2021.06.04 01:03:23 INFO  [success] Total time: 7 s, completed 04-Jun-2021, 1:03:23 AM[0m
+[0m2021.06.04 01:03:23 WARN  no build target for: E:\consigliere19-dev\play-project\app\controllers\HomeController.scala[0m
+[0m2021.06.04 01:03:27 INFO  [info] loading settings for project play-project-build from metals.sbt,plugins.sbt ...[0m
+[0m2021.06.04 01:03:27 INFO  [info] loading project definition from E:\consigliere19-dev\play-project\project[0m
+[0m2021.06.04 01:03:34 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.04 01:03:37 INFO  [success] Generated .bloop\play-project-build.json[0m
+[0m2021.06.04 01:03:37 INFO  [success] Total time: 11 s, completed 04-Jun-2021, 1:03:38 AM[0m
+[0m2021.06.04 01:03:38 INFO  time: code lens generation in 14s[0m
+[0m2021.06.04 01:03:42 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.06.04 01:03:42 INFO  [info] set current project to play-project (in build file:/E:/consigliere19-dev/play-project/)[0m
+[0m2021.06.04 01:03:54 INFO  [success] Generated .bloop\root.json[0m
+[0m2021.06.04 01:03:54 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2021.06.04 01:03:54 INFO  [success] Total time: 10 s, completed 04-Jun-2021, 1:03:54 AM[0m
+[0m2021.06.04 01:03:54 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.06.04 01:03:54 INFO  time: ran 'sbt bloopInstall' in 2m36s[0m
+[0m2021.06.04 01:03:54 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 11694'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.04 01:04:20 INFO  running 'C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\BITANU\AppData\Local\Temp\metals4337328791118023562\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+Waiting for the bsp connection to come up...
+[0m2021.06.04 01:04:24 INFO  [info] welcome to sbt 1.5.2 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2021.06.04 01:04:28 INFO  [info] loading global plugins from C:\Users\BITANU\.sbt\1.0\plugins[0m
+Waiting for the bsp connection to come up...
+[0m2021.06.04 01:04:31 INFO  [info] loading settings for project play-project-build-build-build from metals.sbt ...[0m
+[0m2021.06.04 01:04:31 INFO  [info] loading project definition from E:\consigliere19-dev\play-project\project\project\project[0m
+[0m2021.06.04 01:04:31 INFO  [info] loading settings for project play-project-build-build from metals.sbt ...[0m
+[0m2021.06.04 01:04:32 INFO  [info] loading project definition from E:\consigliere19-dev\play-project\project\project[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Attempting a connection to the server...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from 'e:\consigliere19-dev\play-project\.bloop'...
+[0m[32m[D][0m Loading project from 'e:\consigliere19-dev\play-project\.bloop\root.json'
+[0m[32m[D][0m Loading project from 'e:\consigliere19-dev\play-project\.bloop\root-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.6.
+[0m[32m[D][0m   => C:\Users\BITANU\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\BITANU\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.19.0\jline-3.19.0.jar
+[0m[32m[D][0m   => C:\Users\BITANU\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.6\scala-compiler-2.13.6.jar
+[0m[32m[D][0m   => C:\Users\BITANU\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+[0m[32m[D][0m   => C:\Users\BITANU\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.6\scala-reflect-2.13.6.jar
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Missing analysis file for project 'root'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:11694...
+The server is listening for incoming connections at tcp://127.0.0.1:11694...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.04 01:04:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\BITANU\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.04 01:04:38 INFO  [success] Generated .bloop\play-project-build-build.json[0m
+[0m2021.06.04 01:04:38 INFO  [success] Total time: 6 s, completed 04-Jun-2021, 1:04:38 AM[0m
+[0m2021.06.04 01:04:38 INFO  [info] loading settings for project play-project-build from metals.sbt,plugins.sbt ...[0m
+[0m2021.06.04 01:04:38 INFO  [info] loading project definition from E:\consigliere19-dev\play-project\project[0m
+[0m2021.06.04 01:04:42 INFO  [success] Generated .bloop\play-project-build.json[0m
+[0m2021.06.04 01:04:42 INFO  [success] Total time: 4 s, completed 04-Jun-2021, 1:04:43 AM[0m
+[0m2021.06.04 01:04:44 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.06.04 01:04:44 INFO  [info] set current project to play-project (in build file:/E:/consigliere19-dev/play-project/)[0m
+[0m2021.06.04 01:04:46 INFO  [success] Generated .bloop\root.json[0m
+[0m2021.06.04 01:04:46 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2021.06.04 01:04:46 INFO  [success] Total time: 2 s, completed 04-Jun-2021, 1:04:47 AM[0m
+[0m2021.06.04 01:04:46 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.06.04 01:04:47 INFO  time: ran 'sbt bloopInstall' in 26s[0m
+[0m2021.06.04 01:04:47 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 30530'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:30530...
+The server is listening for incoming connections at tcp://127.0.0.1:30530...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.04 01:04:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\BITANU\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.04 01:04:47 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.06.04 01:04:47 INFO  Opening a bsp server connection with 'bsp --protocol tcp --port 29519'...Attempting to connect to the build server...
+[0m
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 18713'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:29519...
+The server is listening for incoming connections at tcp://127.0.0.1:29519...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:18713...
+The server is listening for incoming connections at tcp://127.0.0.1:18713...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.04 01:04:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\BITANU\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.04 01:04:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\BITANU\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.04 01:04:48 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.04 01:04:48 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 43055'...
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 28425'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:43055...
+The server is listening for incoming connections at tcp://127.0.0.1:43055...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:28425...
+The server is listening for incoming connections at tcp://127.0.0.1:28425...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.04 01:04:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\BITANU\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.04 01:04:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\BITANU\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.04 01:04:52 INFO  time: Connected to build server in 5.27s[0m
+[0m2021.06.04 01:04:52 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.04 01:04:53 INFO  time: Imported build in 0.5s[0m
+[0m2021.06.04 01:04:58 INFO  time: Connected to build server in 1m3s[0m
+[0m2021.06.04 01:04:58 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.04 01:04:58 INFO  time: Imported build in 0.25s[0m
+Caught unexpected io exception handling event for E:\consigliere19-dev\play-project\project\src\main\scala-sbt-1.0
+java.nio.file.NoSuchFileException: E:\consigliere19-dev\play-project\project\src\main\scala-sbt-1.0
+	at com.swoval.files.NativeDirectoryLister.fillResults(NativeDirectoryLister.java:93)
+	at com.swoval.files.NativeDirectoryLister.apply(NativeDirectoryLister.java:48)
+	at com.swoval.files.SimpleFileTreeView$Lister.impl(SimpleFileTreeView.java:149)
+	at com.swoval.files.SimpleFileTreeView$Lister.fillResults(SimpleFileTreeView.java:140)
+	at com.swoval.files.SimpleFileTreeView.list(SimpleFileTreeView.java:50)
+	at com.swoval.files.CachedDirectoryImpl.init(CachedDirectoryImpl.java:568)
+	at com.swoval.files.CachedDirectoryImpl.init(CachedDirectoryImpl.java:557)
+	at com.swoval.files.FileCacheDirectoryTree.newCachedDirectory(FileCacheDirectoryTree.java:623)
+	at com.swoval.files.FileCacheDirectoryTree.handleEvent(FileCacheDirectoryTree.java:298)
+	at com.swoval.files.FileTreeRepositories$1.onNext(FileTreeRepositories.java:79)
+	at com.swoval.files.FileTreeRepositories$1.onNext(FileTreeRepositories.java:73)
+	at com.swoval.files.Observers.onNext(Observers.java:31)
+	at com.swoval.files.NioPathWatcher.runCallbacks(NioPathWatcher.java:423)
+	at com.swoval.files.NioPathWatcher.handleEvent(NioPathWatcher.java:447)
+	at com.swoval.files.NioPathWatcher.access$300(NioPathWatcher.java:35)
+	at com.swoval.files.NioPathWatcher$2.accept(NioPathWatcher.java:108)
+	at com.swoval.files.NioPathWatcher$2.accept(NioPathWatcher.java:102)
+	at com.swoval.files.NioPathWatcherService$2.run(NioPathWatcherService.java:95)
+[0m2021.06.04 01:05:04 ERROR error processing file:///C:/Users/BITANU/AppData/Local/Coursier/Cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.13/scala-compiler-2.12.13-sources.jar
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_E ON PUBLIC.INDEXED_JAR(MD5) VALUES ( /* 202 */ '4CE50855F56A33F9BFFB80943AB9F970' )"; SQL statement:
+insert into indexed_jar (md5) values (?) [23505-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:459)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.index.BaseIndex.getDuplicateKeyException(BaseIndex.java:103)
+	at org.h2.pagestore.db.PageBtree.find(PageBtree.java:120)
+	at org.h2.pagestore.db.PageBtreeLeaf.addRow(PageBtreeLeaf.java:148)
+	at org.h2.pagestore.db.PageBtreeLeaf.addRowTry(PageBtreeLeaf.java:101)
+	at org.h2.pagestore.db.PageBtreeNode.addRowTry(PageBtreeNode.java:204)
+	at org.h2.pagestore.db.PageBtreeIndex.addRow(PageBtreeIndex.java:98)
+	at org.h2.pagestore.db.PageBtreeIndex.add(PageBtreeIndex.java:89)
+	at org.h2.pagestore.db.PageStoreTable.addRow(PageStoreTable.java:89)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:195)
+	at org.h2.command.dml.Insert.update(Insert.java:151)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:272)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:191)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:191)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:152)
+	at scala.meta.internal.metals.JarTopLevels.putTopLevels(JarTopLevels.scala:75)
+	at scala.meta.internal.metals.MetalsLanguageServer.addSourceJarSymbols(MetalsLanguageServer.scala:2444)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$8(MetalsLanguageServer.scala:2402)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:985)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:984)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$3(MetalsLanguageServer.scala:2390)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$3$adapted(MetalsLanguageServer.scala:2389)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2(MetalsLanguageServer.scala:2389)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2$adapted(MetalsLanguageServer.scala:2388)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexDependencySources(MetalsLanguageServer.scala:2388)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexWorkspace$10(MetalsLanguageServer.scala:2333)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexWorkspace(MetalsLanguageServer.scala:2333)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:2227)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:2227)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+[0m2021.06.04 01:05:05 ERROR error processing file:///C:/Users/BITANU/AppData/Local/Coursier/Cache/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.12/sbt_1.0/1.5.2/srcs/sbt-native-packager-sources.jar
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_E ON PUBLIC.INDEXED_JAR(MD5) VALUES ( /* 210 */ '826281A36CB3418C72C9F65D02E6C510' )"; SQL statement:
+insert into indexed_jar (md5) values (?) [23505-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:459)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.index.BaseIndex.getDuplicateKeyException(BaseIndex.java:103)
+	at org.h2.pagestore.db.PageBtree.find(PageBtree.java:120)
+	at org.h2.pagestore.db.PageBtreeLeaf.addRow(PageBtreeLeaf.java:148)
+	at org.h2.pagestore.db.PageBtreeLeaf.addRowTry(PageBtreeLeaf.java:101)
+	at org.h2.pagestore.db.PageBtreeNode.addRowTry(PageBtreeNode.java:204)
+	at org.h2.pagestore.db.PageBtreeIndex.addRow(PageBtreeIndex.java:98)
+	at org.h2.pagestore.db.PageBtreeIndex.add(PageBtreeIndex.java:89)
+	at org.h2.pagestore.db.PageStoreTable.addRow(PageStoreTable.java:89)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:195)
+	at org.h2.command.dml.Insert.update(Insert.java:151)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:272)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:191)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:191)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:152)
+	at scala.meta.internal.metals.JarTopLevels.putTopLevels(JarTopLevels.scala:75)
+	at scala.meta.internal.metals.MetalsLanguageServer.addSourceJarSymbols(MetalsLanguageServer.scala:2444)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$8(MetalsLanguageServer.scala:2402)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:985)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:984)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$3(MetalsLanguageServer.scala:2390)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$3$adapted(MetalsLanguageServer.scala:2389)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2(MetalsLanguageServer.scala:2389)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2$adapted(MetalsLanguageServer.scala:2388)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexDependencySources(MetalsLanguageServer.scala:2388)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexWorkspace$10(MetalsLanguageServer.scala:2333)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexWorkspace(MetalsLanguageServer.scala:2333)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:2227)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:2227)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+[0m2021.06.04 01:05:04 INFO  time: indexed workspace in 12s[0m
+[0m2021.06.04 01:05:05 INFO  time: indexed workspace in 7.15s[0m
+[0m2021.06.04 01:05:10 INFO  compiling root (7 scala sources and 1 java source)[0m
+[0m2021.06.04 01:05:43 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.4' (since 1m 5.521s)[0m
+[0m2021.06.04 01:05:43 INFO  compiling root (7 scala sources and 1 java source)[0m
+[0m2021.06.04 01:05:51 INFO  time: code lens generation in 41s[0m
+[0m2021.06.04 01:05:51 INFO  time: code lens generation in 40s[0m
+[0m2021.06.04 01:05:51 INFO  time: code lens generation in 43s[0m
+[0m2021.06.04 01:05:51 INFO  time: code lens generation in 45s[0m
+[0m2021.06.04 01:05:55 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.04 01:05:56 INFO  time: compiled root in 13s[0m
+[0m2021.06.04 01:05:59 INFO  time: compiled root-test in 3.67s[0m
+[0m2021.06.04 01:20:21 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 01:20:23 INFO  time: compiled root in 1.78s[0m
+[0m2021.06.04 01:22:12 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.04 01:22:14 INFO  time: compiled root in 1.6s[0m
+[0m2021.06.04 02:16:44 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 02:16:45 INFO  time: compiled root in 1.22s[0m
+[0m2021.06.04 02:17:42 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 02:17:43 INFO  time: compiled root in 1.63s[0m
+[0m2021.06.04 02:18:40 INFO  compiling root (3 scala sources and 1 java source)[0m
+[0m2021.06.04 02:18:45 INFO  time: compiled root in 5.12s[0m
+[0m2021.06.04 02:19:37 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 02:19:40 INFO  time: compiled root in 2.64s[0m
+[0m2021.06.04 02:25:09 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 02:25:09 INFO  time: compiled root in 0.24s[0m
+[0m2021.06.04 02:25:28 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.04 02:25:30 INFO  time: compiled root in 1.84s[0m
+Jun 04, 2021 2:29:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 563
+[0m2021.06.04 02:29:38 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 02:29:38 INFO  time: compiled root in 0.13s[0m
+[0m2021.06.04 02:29:48 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 02:29:48 INFO  time: compiled root in 0.2s[0m
+[0m2021.06.04 02:30:55 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 02:30:56 INFO  time: compiled root in 1.32s[0m
+[0m2021.06.04 02:31:05 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 02:31:06 INFO  time: compiled root in 1.39s[0m
+[0m2021.06.04 02:31:10 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 02:31:12 INFO  time: compiled root in 1.03s[0m
+Jun 04, 2021 2:39:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 920
+Jun 04, 2021 2:39:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 921
+Jun 04, 2021 2:39:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 923
+[0m2021.06.04 02:41:01 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 02:41:02 INFO  time: compiled root in 1.24s[0m
+[0m2021.06.04 02:41:42 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 02:41:45 INFO  time: compiled root in 2.73s[0m
+[0m2021.06.04 02:42:58 INFO  compiling root (3 scala sources)[0m
+[0m2021.06.04 02:43:00 INFO  time: compiled root in 1.98s[0m
+[0m2021.06.04 02:43:00 INFO  compiling root (1 java source)[0m
+[0m2021.06.04 02:43:00 INFO  time: compiled root in 0.75s[0m
+[0m2021.06.04 02:45:07 INFO  compiling root (3 scala sources)[0m
+[0m2021.06.04 02:45:09 INFO  time: compiled root in 2.2s[0m
