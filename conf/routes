@@ -12,9 +12,12 @@ GET     /productRE/$prodType<[a-z]{2}\d\d>/:prodNum controllers.HomeController.p
 
 GET     /tasklist1                  controllers.Tasklist1Controller.tasklist()
 GET     /login1                     controllers.Tasklist1Controller.login()
+GET     /logout1                     controllers.Tasklist1Controller.logout()
 GET     /validate1                  controllers.Tasklist1Controller.validate(username, password)
-+ nocsrf
 POST     /validate2                 controllers.Tasklist1Controller.validatePost()
+POST     /createUser1               controllers.Tasklist1Controller.createUser()
+POST     /addTask1               controllers.Tasklist1Controller.addTask()
+POST     /deleteTask1               controllers.Tasklist1Controller.deleteTask()
 
 
 

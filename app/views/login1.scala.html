@@ -1,4 +1,4 @@
-@()
+@()(implicit request: RequestHeader, flash: Flash)
 
 @main("Login1"){
     <h2>Login1 GET</h2>
@@ -11,6 +11,14 @@
     <br>
     <h2>Login1 POST</h2>
     <form method="post" action="@routes.Tasklist1Controller.validatePost()">
+        @helper.CSRF.formField
+        Username: <input type="text" name="username">
+        Password: <input type="password" name="password">
+        <input type="submit">    
+    </form> 
+    <h2>Create User</h2>
+    <form method="post" action="@routes.Tasklist1Controller.createUser()">
+        @helper.CSRF.formField
         Username: <input type="text" name="username">
         Password: <input type="password" name="password">
         <input type="submit">    

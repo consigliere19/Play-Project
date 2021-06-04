@@ -641,3 +641,229 @@ java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.Call
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
+[0m2021.06.04 10:47:37 INFO  Started: Metals version 0.10.4 in workspace 'E:\consigliere19-dev\play-project' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.04 10:47:48 INFO  time: initialize in 11s[0m
+[0m2021.06.04 10:47:48 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.04 10:47:49 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 40135'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'e:\consigliere19-dev\play-project\.bloop'...
+[0m[32m[D][0m Loading project from 'e:\consigliere19-dev\play-project\.bloop\root.json'
+[0m[32m[D][0m Loading project from 'e:\consigliere19-dev\play-project\.bloop\root-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.6.
+[0m[32m[D][0m   => C:\Users\BITANU\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\BITANU\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.19.0\jline-3.19.0.jar
+[0m[32m[D][0m   => C:\Users\BITANU\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.6\scala-compiler-2.13.6.jar
+[0m[32m[D][0m   => C:\Users\BITANU\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+[0m[32m[D][0m   => C:\Users\BITANU\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.6\scala-reflect-2.13.6.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root-test', 'root'
+[0m[32m[D][0m Loading previous analysis for 'root-test' from 'E:\consigliere19-dev\play-project\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Loading previous analysis for 'root' from 'E:\consigliere19-dev\play-project\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:40135...
+The server is listening for incoming connections at tcp://127.0.0.1:40135...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.04 10:48:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\BITANU\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.04 10:48:04 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.04 10:48:04 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 23231'...
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 30699'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:23231...
+The server is listening for incoming connections at tcp://127.0.0.1:23231...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:30699...
+The server is listening for incoming connections at tcp://127.0.0.1:30699...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.04 10:48:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\BITANU\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.04 10:48:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\BITANU\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.04 10:48:05 INFO  time: Connected to build server in 17s[0m
+[0m2021.06.04 10:48:05 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.04 10:48:06 INFO  time: Imported build in 0.41s[0m
+[0m2021.06.04 10:48:18 INFO  time: indexed workspace in 11s[0m
+[0m2021.06.04 11:29:45 INFO  compiling root (11 scala sources and 1 java source)[0m
+[0m2021.06.04 11:29:49 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.4' (since 41m 45.104s)[0m
+[0m2021.06.04 11:29:49 INFO  compiling root (11 scala sources and 1 java source)[0m
+[0m2021.06.04 11:29:55 WARN  failed to generate semanticdb for E:\consigliere19-dev\play-project\app\models.TasklistInMemoryModel.scala:
+java.nio.file.NoSuchFileException: E:\consigliere19-dev\play-project\app\models.TasklistInMemoryModel.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.inputs.Input$File.chars$lzycompute(Input.scala:52)
+	at scala.meta.inputs.Input$File.chars(Input.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:153)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$261.apply(ScalametaParser.scala:5155)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:52)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.saveSemanticdbForCompilationUnit(SemanticdbPipeline.scala:60)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.apply(SemanticdbPipeline.scala:67)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.Global$GlobalPhase.run(Global.scala:401)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.run(SemanticdbPipeline.scala:77)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1519)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1503)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1495)
+	at scala.tools.nsc.Global$Run.compile(Global.scala:1630)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:148)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:123)
+	at xsbt.CompilerInterface.run(CompilerInterface.scala:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at sbt.internal.inc.AnalyzingCompiler.call(AnalyzingCompiler.scala:252)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:121)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:94)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:142)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:160)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:72)
+	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)
+	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:71)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:160)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[0m
+[0m2021.06.04 11:29:55 WARN  failed to generate semanticdb for E:\consigliere19-dev\play-project\app\models.TasklistInMemoryModel.scala:
+java.nio.file.NoSuchFileException: E:\consigliere19-dev\play-project\app\models.TasklistInMemoryModel.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.inputs.Input$File.chars$lzycompute(Input.scala:52)
+	at scala.meta.inputs.Input$File.chars(Input.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:153)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$261.apply(ScalametaParser.scala:5155)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:52)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.saveSemanticdbForCompilationUnit(SemanticdbPipeline.scala:60)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.apply(SemanticdbPipeline.scala:67)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.Global$GlobalPhase.run(Global.scala:401)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.run(SemanticdbPipeline.scala:77)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1519)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1503)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1495)
+	at scala.tools.nsc.Global$Run.compile(Global.scala:1630)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:148)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:123)
+	at xsbt.CompilerInterface.run(CompilerInterface.scala:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at sbt.internal.inc.AnalyzingCompiler.call(AnalyzingCompiler.scala:252)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:121)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:94)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:142)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:160)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:72)
+	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)
+	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:71)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:160)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[0m
+[0m2021.06.04 11:30:03 INFO  time: compiled root in 13s[0m
+[0m2021.06.04 11:30:03 ERROR Unexpected error when compiling root: 'E:\consigliere19-dev\play-project\app\models.TasklistInMemoryModel.scala (The system cannot find the file specified)'[0m
+[0m2021.06.04 11:30:03 ERROR Unexpected error when compiling root: 'E:\consigliere19-dev\play-project\app\models.TasklistInMemoryModel.scala (The system cannot find the file specified)'[0m
+[0m2021.06.04 11:30:15 INFO  compiling root (11 scala sources and 1 java source)[0m
+[0m2021.06.04 11:30:24 INFO  time: compiled root in 8.16s[0m
+[0m2021.06.04 11:35:29 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 11:35:29 INFO  time: compiled root in 0.28s[0m
+Jun 04, 2021 11:35:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 187
+[0m2021.06.04 11:36:41 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 11:36:42 INFO  time: compiled root in 1.15s[0m
+Jun 04, 2021 11:37:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 515
+[0m2021.06.04 11:38:59 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 11:39:01 INFO  time: compiled root in 1.45s[0m
+Jun 04, 2021 11:39:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 814
+Jun 04, 2021 11:39:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 845
+[0m2021.06.04 11:39:43 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 11:39:44 INFO  time: compiled root in 1.12s[0m
+Jun 04, 2021 11:40:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 993
+Jun 04, 2021 11:40:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 994
+[0m2021.06.04 11:41:21 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 11:41:25 INFO  time: compiled root in 4.21s[0m
+Jun 04, 2021 11:46:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1269
+something's wrong: no file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala in List[<error>]RangePosition(file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala, 195, 195, 209)
+something's wrong: no file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala in List[<error>]RangePosition(file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala, 195, 195, 202)
+something's wrong: no file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala in List[<error>]RangePosition(file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala, 195, 195, 203)
+something's wrong: no file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala in List[<error>]RangePosition(file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala, 195, 195, 204)
+something's wrong: no file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala in List[<error>]RangePosition(file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala, 195, 195, 205)
+something's wrong: no file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala in List[<error>]RangePosition(file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala, 195, 195, 206)
+something's wrong: no file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala in List[<error>]RangePosition(file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala, 195, 195, 205)
+something's wrong: no file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala in List[<error>]RangePosition(file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala, 195, 195, 206)
+something's wrong: no file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala in List[String]RangePosition(file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala, 195, 195, 207)
+something's wrong: no file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala in List[String]RangePosition(file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala, 195, 195, 207)
+something's wrong: no file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala in List[String]RangePosition(file:///E:/consigliere19-dev/play-project/app/models/TasklistInMemoryModel.scala, 195, 195, 207)
+[0m2021.06.04 11:47:04 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 11:47:05 INFO  time: compiled root in 1.28s[0m
+[0m2021.06.04 11:47:24 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.4' (since 59m 19.954s)[0m
+[0m2021.06.04 11:47:24 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 11:47:24 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 11:47:26 INFO  time: compiled root in 1.27s[0m
+[0m2021.06.04 11:47:27 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.04 11:47:29 INFO  time: compiled root-test in 1.99s[0m
+[0m2021.06.04 11:48:04 INFO  compiling root (1 scala source)[0m
+[0m2021.06.04 11:48:06 INFO  time: compiled root in 2.03s[0m
