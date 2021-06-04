@@ -3,6 +3,7 @@ package controllers
 import javax.inject._
 import play.api._
 import play.api.mvc._
+import models.TasklistInMemoryModel
 
 @Singleton
 class Tasklist1Controller  @Inject()(val controllerComponents: ControllerComponents) extends BaseController{
@@ -20,7 +21,10 @@ class Tasklist1Controller  @Inject()(val controllerComponents: ControllerCompone
         postVals.map { args => 
             val username = args("username").head;
             val password = args("password").head;
-            Redirect(routes.Tasklist1Controller.tasklist());
+            if (TasklistInMemoryModel.validateUser(username, password))
+                Redirect(routes.Tasklist1Controller.tasklist());
+            else
+                Redirect(routes.Tasklist1Controller.login());
         }.getOrElse(
             Redirect(routes.Tasklist1Controller.login())
         )
@@ -28,7 +32,8 @@ class Tasklist1Controller  @Inject()(val controllerComponents: ControllerCompone
 
 
     def tasklist = Action {
-        val tasks = List("Play Football", "Watch Football", "Sleep");
+        val username = "Kai";
+        val tasks = TasklistInMemoryModel.getTasks(username);
         Ok(views.html.tasklist1(tasks));
     }
 
